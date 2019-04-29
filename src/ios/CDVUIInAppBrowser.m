@@ -659,7 +659,7 @@ static CDVUIInAppBrowser* instance = nil;
     [self.view sendSubviewToBack:self.webView];
 
     self.webView.delegate = _webViewDelegate;
-    self.webView.backgroundColor = [UIColor whiteColor];
+    self.webView.backgroundColor = [UIColor colorWithRed:72.0f/255.0f green:171.0f/255.0f blue:194.0f/255.0f alpha:1.0f];
 
     self.webView.clearsContextBeforeDrawing = YES;
     self.webView.clipsToBounds = YES;
